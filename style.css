@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+
+.lista-1, .lista-2 {
+  margin-bottom: 100px;
+}
+
+.lista-1 li:first-child {
+background: #caf;
+}
+
+.lista-1 li:last-child {
+background: rgb(121, 47, 233);
+}
+
+.lista-1 li:nth-child(3) {
+background: rgb(255, 8, 8);margin-bottom: 5px;
+}
+
+
+.lista-1 li {
+background: rgb(208, 252, 151);margin-bottom: 5px;
+}
+
+.lista-2 li:nth-child(odd) {
+background: rgb(208, 252, 151);margin-bottom: 5px;
+}
+
+.lista-2 li:nth-child(even) {
+background: rgb(235, 5, 204);margin-bottom: 5px;
+}
+
+.lista-3 li:not(:first-child, :nth-child(3), #not) {
+  background-color: aqua;
+  margin: 5px;
+}
+
